@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reddit but Boxes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="grid-container">
+    <!-- TOP BAR NAVIGATION -->
+    <div class="topbar">
+        <div class="logo">
+            <img src="https://logos-world.net/wp-content/uploads/2020/10/Reddit-Logo.png" alt="Reddit Logo">
+        </div>
+
+        <div class="subreddit-shortcut">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/LoL_icon.svg/2048px-LoL_icon.svg.png" alt="Subreddit Logo">
+            <div class="subreddit-shortcut-name">r/leagueoflegends</div>
+        </div>
+
+        <div class="search-bar">
+            <label>
+                <input type="text" placeholder="Search">
+            </label>
+        </div>
+
+        <div class="subreddit-circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="advertise-button">
+            <button>
+                Advertise
+            </button>
+        </div>
+
+        <div class="user-profile">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Profile Picture" class="profile-picture">
+            <div class="user-details">
+                <span class="username">dingkun777</span>
+                <div class="karma-coins">
+                    <span class="karma">2.3k karma</span>
+                    <span class="coins">69420 coins</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIDE BAR (LEFT) -->
+    <div class="sidebar-left">
+        <div class="filter-label">
+            <label>
+                <input type="text" placeholder="Filter">
+            </label>
+        </div>
+        <div class="sidebar-box">
+            <div class="sidebar-section">
+                <h4>Favorites</h4>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 1</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 2</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 3</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 4</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 5</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 6</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 7</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 8</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 9</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 10</span>
+                    <span class="favorite-circle"></span>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-box">
+            <div class="sidebar-section">
+                <h4>Moderating</h4>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 1</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 2</span>
+                    <span class="favorite-circle"></span>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-box">
+            <div class="sidebar-section">
+                <h4>Custom Feeds</h4>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 1</span>
+                    <span class="favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 2</span>
+                    <span class="favorite-circle"></span>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-box">
+            <div class="sidebar-section">
+                <h4>Your Communities</h4>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 11</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 12</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 13</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 14</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 15</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 16</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 17</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 18</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 19</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 20</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+                <div class="subreddit">
+                    <div class="logo-square"></div>
+                    <span class="subreddit-shortcut-name">Subreddit 21</span>
+                    <span class="non-favorite-circle"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BANNER AND MAIN CONTENT -->
+    <div class="cell banner-main">
+        <div class="subreddit-banner">
+            <span class="banner-definition"> Page banner </span>
+        </div>
+        <div class="cell main-content">
+            <div class="subreddit-title-box">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/LoL_icon.svg/2048px-LoL_icon.svg.png" alt="Subreddit Logo" class="subreddit-logo">
+                <div class="subreddit-details">
+                    <div class="subreddit-title">League of Legends</div>
+                    <div class="subreddit-name">r/leagueoflegends</div>
+                </div>
+                <button class="subreddit-join-button">Joined</button>
+                <div class="subreddit-notification"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="thread-container">
+        <div class="subreddit-create-post-box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Profile Picture" class="profile-picture">
+            <button class="create-post-button">Create Post</button>
+            <div class="mini-icons">
+                <div class="subreddit-mini-icon"></div>
+                <div class="subreddit-mini-icon"></div>
+            </div>
+        </div>
+
+        <div class="subreddit-postsorter">
+            <div class="subreddit-postsorter-button">
+                <button>HOT</button>
+                <button>NEW</button>
+                <button>TOP</button>
+            </div>
+        </div>
+
+        <!-- Thread 1 -->
+        <div class="subreddit-post">
+            <div class="subreddit-vote-column">
+                <button class="subreddit-upvote-button">Yay</button>
+                <label class="subreddit-vote-count">420</label>
+                <button class="subreddit-downvote-button">Nay</button>
+            </div>
+            <div class="subreddit-post-content">
+                <div class="subreddit-post-details">
+                    <div class="subreddit-poster">Posted by u/username1 15 hours ago</div>
+                    <div class="subreddit-post-title">Sample of Complete Post</div>
+                    <div class="subreddit-post-body">
+                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?
+                    </div>
+                </div>
+                <div class="subreddit-post-actions">
+                    <div class="subreddit-post-buttons">
+                        <button class="subreddit-comment-button">55 Comments</button>
+                        <button class="subreddit-award-button">Award</button>
+                        <button class="subreddit-share-button">Share</button>
+                        <button class="subreddit-save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thread No Body -->
+        <div class="subreddit-post">
+            <div class="subreddit-vote-column">
+                <button class="subreddit-upvote-button">Yay</button>
+                <label class="subreddit-vote-count">999</label>
+                <button class="subreddit-downvote-button">Nay</button>
+            </div>
+            <div class="subreddit-post-content">
+                <div class="subreddit-post-details">
+                    <div class="subreddit-poster">Posted by u/username2 11 hours ago</div>
+                    <div class="subreddit-post-title">Sample Short Post</div>
+                    <div class="subreddit-post-body">
+                    </div>
+                </div>
+                <div class="subreddit-post-actions">
+                    <div class="subreddit-post-buttons">
+                        <button class="subreddit-comment-button">69 Comments</button>
+                        <button class="subreddit-award-button">Award</button>
+                        <button class="subreddit-share-button">Share</button>
+                        <button class="subreddit-save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thread Samples -->
+        <div class="subreddit-post">
+            <div class="subreddit-vote-column">
+                <button class="subreddit-upvote-button">Yay</button>
+                <label class="subreddit-vote-count">123</label>
+                <button class="subreddit-downvote-button">Nay</button>
+            </div>
+            <div class="subreddit-post-content">
+                <div class="subreddit-post-details">
+                    <div class="subreddit-poster">Posted by u/username 15 hours ago</div>
+                    <div class="subreddit-post-title">Filler Thread</div>
+                    <div class="subreddit-post-body">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </div>
+                </div>
+                <div class="subreddit-post-actions">
+                    <div class="subreddit-post-buttons">
+                        <button class="subreddit-comment-button">69 Comments</button>
+                        <button class="subreddit-award-button">Award</button>
+                        <button class="subreddit-share-button">Share</button>
+                        <button class="subreddit-save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subreddit-post">
+            <div class="subreddit-vote-column">
+                <button class="subreddit-upvote-button">Yay</button>
+                <label class="subreddit-vote-count">123</label>
+                <button class="subreddit-downvote-button">Nay</button>
+            </div>
+            <div class="subreddit-post-content">
+                <div class="subreddit-post-details">
+                    <div class="subreddit-poster">Posted by u/username 15 hours ago</div>
+                    <div class="subreddit-post-title">Filler Thread</div>
+                    <div class="subreddit-post-body">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </div>
+                </div>
+                <div class="subreddit-post-actions">
+                    <div class="subreddit-post-buttons">
+                        <button class="subreddit-comment-button">69 Comments</button>
+                        <button class="subreddit-award-button">Award</button>
+                        <button class="subreddit-share-button">Share</button>
+                        <button class="subreddit-save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subreddit-post">
+            <div class="subreddit-vote-column">
+                <button class="subreddit-upvote-button">Yay</button>
+                <label class="subreddit-vote-count">123</label>
+                <button class="subreddit-downvote-button">Nay</button>
+            </div>
+            <div class="subreddit-post-content">
+                <div class="subreddit-post-details">
+                    <div class="subreddit-poster">Posted by u/username 15 hours ago</div>
+                    <div class="subreddit-post-title">Filler Thread</div>
+                    <div class="subreddit-post-body">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </div>
+                </div>
+                <div class="subreddit-post-actions">
+                    <div class="subreddit-post-buttons">
+                        <button class="subreddit-comment-button">69 Comments</button>
+                        <button class="subreddit-award-button">Award</button>
+                        <button class="subreddit-share-button">Share</button>
+                        <button class="subreddit-save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subreddit-post">
+            <div class="subreddit-vote-column">
+                <button class="subreddit-upvote-button">Yay</button>
+                <label class="subreddit-vote-count">123</label>
+                <button class="subreddit-downvote-button">Nay</button>
+            </div>
+            <div class="subreddit-post-content">
+                <div class="subreddit-post-details">
+                    <div class="subreddit-poster">Posted by u/username 15 hours ago</div>
+                    <div class="subreddit-post-title">Filler Thread</div>
+                    <div class="subreddit-post-body">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </div>
+                </div>
+                <div class="subreddit-post-actions">
+                    <div class="subreddit-post-buttons">
+                        <button class="subreddit-comment-button">69 Comments</button>
+                        <button class="subreddit-award-button">Award</button>
+                        <button class="subreddit-share-button">Share</button>
+                        <button class="subreddit-save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subreddit-post">
+            <div class="subreddit-vote-column">
+                <button class="subreddit-upvote-button">Yay</button>
+                <label class="subreddit-vote-count">123</label>
+                <button class="subreddit-downvote-button">Nay</button>
+            </div>
+            <div class="subreddit-post-content">
+                <div class="subreddit-post-details">
+                    <div class="subreddit-poster">Posted by u/username 15 hours ago</div>
+                    <div class="subreddit-post-title">Filler Thread</div>
+                    <div class="subreddit-post-body">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </div>
+                </div>
+                <div class="subreddit-post-actions">
+                    <div class="subreddit-post-buttons">
+                        <button class="subreddit-comment-button">69 Comments</button>
+                        <button class="subreddit-award-button">Award</button>
+                        <button class="subreddit-share-button">Share</button>
+                        <button class="subreddit-save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="subreddit-post">
+            <div class="subreddit-vote-column">
+                <button class="subreddit-upvote-button">Yay</button>
+                <label class="subreddit-vote-count">123</label>
+                <button class="subreddit-downvote-button">Nay</button>
+            </div>
+            <div class="subreddit-post-content">
+                <div class="subreddit-post-details">
+                    <div class="subreddit-poster">Posted by u/username 15 hours ago</div>
+                    <div class="subreddit-post-title">Filler Thread</div>
+                    <div class="subreddit-post-body">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    </div>
+                </div>
+                <div class="subreddit-post-actions">
+                    <div class="subreddit-post-buttons">
+                        <button class="subreddit-comment-button">69 Comments</button>
+                        <button class="subreddit-award-button">Award</button>
+                        <button class="subreddit-share-button">Share</button>
+                        <button class="subreddit-save-button">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SIDE BAR (RIGHT) -->
+    <div class="cell sidebar-right">
+        <!-- Box 1 -->
+        <div class="sidebar-box">
+            <h4>About Community</h4>
+            <div class="sidebar-section">
+                <!-- Content for "About" section goes here -->
+                This is a subreddit devoted to the game League of Legends.
+                <div class="subreddit-date-founded">
+                    <span class="subreddit-mini-icons"></span>
+                    <div class="subreddit-date">Created January 13, 2010</div>
+                </div>
+
+                <div class="divider"></div>
+
+
+                <div class="subreddit-statistics">
+                    <div class="subreddit-statistic">
+                        <span class="subreddit-statistic-value">6.5m</span>
+                        <span class="subreddit-statistic-label">players</span>
+                    </div>
+                    <div class="subreddit-statistic">
+                        <span class="subreddit-statistic-value">7.9k</span>
+                        <span class="subreddit-statistic-label">online</span>
+                    </div>
+                    <div class="subreddit-statistic">
+                        <span class="subreddit-statistic-value">Top 1%</span>
+                        <span class="subreddit-statistic-label">Ranked by Size</span>
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <button class="create-post-button">Create Post</button>
+
+                <div class="divider"></div>
+
+                <div class="user-profile">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Profile Picture" class="profile-picture">
+                    <div class="username">dingkun777</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Box 2 -->
+        <div class="sidebar-box">
+            <h4>Rules</h4>
+            <div class="sidebar-section">
+                <!-- Content for "Rules" section goes here -->
+                <ol class="rule-list">
+                    <li>Description of Rule 1</li>
+                    <li>Description of Rule 2</li>
+                    <li>Description of Rule 3</li>
+                    <li>Description of Rule 4</li>
+                    <li>Description of Rule 5</li>
+                    <li>Description of Rule 6</li>
+                    <li>Description of Rule 7</li>
+                    <li>Description of Rule 8</li>
+                    <li>Description of Rule 9</li>
+                    <li>Description of Rule 10</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Box 3 -->
+        <div class="sidebar-box">
+            <div class="sidebar-section">
+                <div class="sidebar-filler"> FILLER </div>
+            </div>
+        </div>
+
+        <!-- Box 4 -->
+        <div class="sidebar-box">
+            <h4>Announcements</h4>
+            <div class="sidebar-section">
+                <ul class="announcement-list">
+                    <li><a href="https://example.com">Announcement 1</a></li>
+                    <li><a href="https://example.com">Announcement 2</a></li>
+                    <li><a href="https://example.com">Announcement 3</a></li>
+                    <li><a href="https://example.com">Announcement 4</a></li>
+                    <li><a href="https://example.com">Announcement 5</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Box 4.5 -->
+        <div class="sidebar-box">
+            <div class="sidebar-section">
+                <div class="sidebar-filler"> FILLER </div>
+            </div>
+        </div>
+
+        <!-- Box 5 -->
+        <div class="sidebar-box">
+            <div class="sidebar-section">
+                <button class="message-mods-button">Message the mods</button>
+                <div class="moderator-list">
+                    <a href="https://example.com" class="moderator-link">u/Moderator1</a>
+                    <a href="https://example.com" class="moderator-link">u/Moderator2</a>
+                    <a href="https://example.com" class="moderator-link">u/Moderator3</a>
+                    <a href="https://example.com" class="moderator-link">u/Moderator4</a>
+                    <a href="https://example.com" class="moderator-link">u/Moderator5</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
